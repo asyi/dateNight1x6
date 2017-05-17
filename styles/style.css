@@ -109,6 +109,11 @@
     .span_1_of_6, .span_2_of_6, .span_3_of_6, .span_4_of_6, .span_5_of_6, .span_6_of_6 { width: 50%; }
 }
 
+@media only screen and (min-width: 500px) {
+    .white-text {
+        font-size: medium;
+    }
+
 @media only screen and (min-width: 768px) {
     .col {
         height: 450px;
