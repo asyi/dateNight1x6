@@ -1,7 +1,7 @@
 .wrapper {
     display: flex;
     flex-flow: row wrap;
-    margin: -8px; /* deals with margin problem from body*/
+    margin: -8px; /* deals with margin problem from body... needs to be adjusted to wordpress body and for different responsive views*/
 }
 
 .square {
@@ -35,7 +35,8 @@
 
 @media screen and (min-width: 310px){
     .wrapper {
-        height: 1000px; /* Height of entire grid (img + txt)*/
+        height: 1000px;  /* Height of entire grid (img + txt)... adjust accordingly*/
+        /*margin: */ /* negative margin required to offset body margin*/
     }
     .square {
         flex: 50%;
@@ -45,7 +46,8 @@
 
 @media screen and (min-width: 360px){
     .wrapper {
-        height: 875px; /* Height of entire grid (img + txt)*/
+        height: 875px;  /* Height of entire grid (img + txt)... adjust accordingly*/
+        /*margin:*/ /* negative margin required to offset body margin*/
     }
     .square {
         flex: 50%;
@@ -55,7 +57,8 @@
 
 @media screen and (min-width: 768px){
     .wrapper {
-        height: 700px; /* Height of entire grid (img + txt)*/
+        height: 700px;  /* Height of entire grid (img + txt)... adjust accordingly*/
+        /*margin:*/ /* negative margin required to offset body margin*/
     }
     .square {
         flex: 33.33%;
@@ -73,7 +76,8 @@
 
 @media screen and (min-width: 1080px){
     .wrapper {
-        height: 525px; /* Height of entire grid (img + txt)*/
+        height: 500px; /* Height of entire grid (img + txt)... adjust accordingly*/
+        /*margin:*/ /* negative margin required to offset body margin*/
     }
 
     .square {
